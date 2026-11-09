@@ -1,0 +1,161 @@
+[
+  {
+    "output": "docs/presentations/assets/hero.webp",
+    "source": "art/hero/deepseek-figure-v001.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/rapier.webp",
+    "source": "art-source/references/DeepSeek_刺剑结构_v001.png",
+    "crop": {
+      "left": 330,
+      "top": 0,
+      "width": 380,
+      "height": 1536
+    },
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/partners.webp",
+    "source": "art-source/cards/final/all-cards-contact.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/gpt.webp",
+    "source": "art-source/cards/final/gpt-figure.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/minimax.webp",
+    "source": "art-source/cards/final/minimax-figure.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/claude.webp",
+    "source": "art-source/cards/final/claude-figure.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/xbot.webp",
+    "source": "art-source/reference3d/light1/frames/DL/0030.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/generated.webp",
+    "source": "art-source/h3/light1/DL/v6/rgba/0030.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/keyposes.webp",
+    "source": "art/hero/keypose/sheet.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/ultimate.webp",
+    "source": "qa/video-revision/ultimate-hit.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/gpt-skill.webp",
+    "source": "qa/video-revision/final-skill-gpt.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/combat.webp",
+    "source": "art-source/promo/clips/combat-a.mp4",
+    "seconds": 1.2,
+    "operation": "Single uncaptioned gameplay frame, proportionally resized"
+  },
+  {
+    "output": "docs/presentations/assets/environment.webp",
+    "source": "art-source/promo/clips/lib.mp4",
+    "seconds": 3.2,
+    "operation": "Single uncaptioned gameplay frame, proportionally resized"
+  },
+  {
+    "output": "docs/presentations/assets/loop.webp",
+    "source": "art-source/promo/clips/combat-b.mp4",
+    "seconds": 4,
+    "operation": "Single uncaptioned gameplay frame, proportionally resized"
+  },
+  {
+    "output": "docs/presentations/assets/qwen.webp",
+    "source": "art-source/promo/clips/skill-qwen.mp4",
+    "seconds": 1.8,
+    "operation": "Single uncaptioned gameplay frame, proportionally resized"
+  },
+  {
+    "output": "docs/presentations/assets/xbot.gif",
+    "source": "art-source/reference3d/light1/frames/DL",
+    "frameStep": 4,
+    "fps": 10,
+    "operation": "Animated GIF loop composited on the slide background"
+  },
+  {
+    "output": "docs/presentations/assets/generated.gif",
+    "source": "art-source/h3/light1/DL/v6/rgba",
+    "frameStep": 4,
+    "fps": 10,
+    "operation": "Animated GIF loop composited on the slide background"
+  },
+  {
+    "output": "docs/presentations/assets/enemy-reference.gif",
+    "source": "art-source/reference3d/e11_attack/frames/L",
+    "frameStep": 4,
+    "fps": 10,
+    "operation": "Animated GIF loop composited on the slide background"
+  },
+  {
+    "output": "docs/presentations/assets/enemy-generated.gif",
+    "source": "art-source/h3/e11_attack/L/v1/rgba",
+    "frameStep": 4,
+    "fps": 10,
+    "operation": "Animated GIF loop composited on the slide background"
+  },
+  {
+    "output": "docs/presentations/assets/cover-ff-type0.webp",
+    "source": "https://cdn.akamai.steamstatic.com/steam/apps/340170/library_600x900_2x.jpg",
+    "sourcePage": "https://store.steampowered.com/app/340170/",
+    "subject": "最终幻想零式",
+    "operation": "Proportional resize and WebP encoding of the complete game cover"
+  },
+  {
+    "output": "docs/presentations/assets/cover-ff-dissidia012.webp",
+    "source": "https://www.thevideogamecompany.com/cdn/shop/products/dissidia-012-duodecim-final-fantasy-sony-psp-662248910369-cover-art.jpg?v=1658952896&width=1200",
+    "sourcePage": "https://www.thevideogamecompany.com/products/dissidia-012-duodecim-final-fantasy-sony-psp",
+    "subject": "最终幻想纷争 012",
+    "operation": "Proportional resize and WebP encoding of the complete game cover"
+  },
+  {
+    "output": "docs/presentations/assets/cover-yggdra-union.webp",
+    "source": "https://cdn.akamai.steamstatic.com/steam/apps/2107860/library_600x900_2x.jpg",
+    "sourcePage": "https://store.steampowered.com/app/2107860/",
+    "subject": "公主同盟",
+    "operation": "Proportional resize and WebP encoding of the complete game cover"
+  },
+  {
+    "output": "docs/presentations/assets/cover-valkyrie-elysium.webp",
+    "source": "https://cdn.akamai.steamstatic.com/steam/apps/1963210/library_600x900_2x.jpg",
+    "sourcePage": "https://store.steampowered.com/app/1963210/",
+    "subject": "北欧女神：极乐世界",
+    "operation": "Proportional resize and WebP encoding of the complete game cover"
+  },
+  {
+    "output": "docs/presentations/assets/cover-hades.webp",
+    "source": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg",
+    "sourcePage": "https://store.steampowered.com/app/1145360/",
+    "subject": "黑帝斯",
+    "operation": "Proportional resize and WebP encoding of the complete game cover"
+  },
+  {
+    "output": "docs/presentations/assets/hero-standing-rapier.webp",
+    "source": "art/hero/deepseek-standing-rapier-v002.png",
+    "operation": "Proportional resize and WebP encoding"
+  },
+  {
+    "output": "docs/presentations/assets/ai-chan-sheets-page.jpg",
+    "source": "https://github.com/lmy414/ai-chan-sheets",
+    "capturedDate": "2026-11-09",
+    "operation": "Unmodified browser viewport screenshot"
+  }
+]

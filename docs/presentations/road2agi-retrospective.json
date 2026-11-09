@@ -1,0 +1,189 @@
+{
+  "title": "Road to AGI｜游戏制作复盘",
+  "pageId": "page_9eb6d466d6488191bb00fcf35bf3d10c",
+  "slideCount": 19,
+  "outlineRevision": "2026-11-09",
+  "outline": [
+    "创作起点与成品",
+    "角色来源与玩法取舍",
+    "主角与卡牌设计",
+    "技术方案与视角",
+    "工具与动画流程",
+    "当前不足",
+    "制作经验与收尾"
+  ],
+  "swotSlide": 6,
+  "heroSettingSlide": 7,
+  "characterSheetSource": {
+    "url": "https://github.com/lmy414/ai-chan-sheets",
+    "label": "大模型角色基础设定图来源",
+    "slide": 3
+  },
+  "animationPipelineSlide": 14,
+  "nonHumanoidPipelineSlide": 15,
+  "xbotSourceUrl": "https://github.com/mrdoob/three.js/blob/dev/examples/models/gltf/Xbot.glb",
+  "language": "zh-CN",
+  "sourceCommit": "b213bb098f011a2d8459fa629674f5051b482dba",
+  "authorNotesDate": "2026-11-09",
+  "inspirationVideo": {
+    "url": "https://b23.tv/rB1WOi2",
+    "canonicalUrl": "https://www.bilibili.com/video/BV164nS68EwU/",
+    "uploaderName": "大运的奇妙冒险",
+    "uploaderUid": "3546715219036947",
+    "uploaderUrl": "https://space.bilibili.com/zh-Hans/3546715219036947"
+  },
+  "inspirationGames": [
+    {
+      "name": "最终幻想零式",
+      "cover": "docs/presentations/assets/cover-ff-type0.webp",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/340170/library_600x900_2x.jpg",
+      "sourceUrl": "https://store.steampowered.com/app/340170/"
+    },
+    {
+      "name": "最终幻想纷争 012",
+      "cover": "docs/presentations/assets/cover-ff-dissidia012.webp",
+      "imageUrl": "https://www.thevideogamecompany.com/cdn/shop/products/dissidia-012-duodecim-final-fantasy-sony-psp-662248910369-cover-art.jpg?v=1658952896&width=1200",
+      "sourceUrl": "https://www.thevideogamecompany.com/products/dissidia-012-duodecim-final-fantasy-sony-psp"
+    },
+    {
+      "name": "公主同盟",
+      "cover": "docs/presentations/assets/cover-yggdra-union.webp",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/2107860/library_600x900_2x.jpg",
+      "sourceUrl": "https://store.steampowered.com/app/2107860/"
+    },
+    {
+      "name": "北欧女神：极乐世界",
+      "cover": "docs/presentations/assets/cover-valkyrie-elysium.webp",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1963210/library_600x900_2x.jpg",
+      "sourceUrl": "https://store.steampowered.com/app/1963210/"
+    },
+    {
+      "name": "黑帝斯",
+      "cover": "docs/presentations/assets/cover-hades.webp",
+      "imageUrl": "https://cdn.akamai.steamstatic.com/steam/apps/1145360/library_600x900_2x.jpg",
+      "sourceUrl": "https://store.steampowered.com/app/1145360/"
+    }
+  ],
+  "lastSync": {
+    "date": "2026-11-10",
+    "sourceCommit": "b213bb098f011a2d8459fa629674f5051b482dba",
+    "stateVersion": 33,
+    "scriptSha256": "87bde8ecf9251f4f084f24137a7bda272257884b9622014b44d4e614e322e97c",
+    "slideCount": 19,
+    "status": "saved",
+    "scriptHashNormalization": "UTF-8 with LF line endings"
+  },
+  "authoringModule": "tools/presentation/road2agi-retrospective.mjs",
+  "assetPreparation": "tools/presentation/prepare-retrospective-assets.mjs",
+  "assetManifest": "docs/presentations/assets.json",
+  "script": "docs/presentations/road2agi-video-script-v1.txt",
+  "skillExamplesSlide": 9,
+  "directionBudgetSlide": 12,
+  "projectSourceUrl": "https://github.com/ArimaKana/road2agi",
+  "supplementalAssets": [
+    {
+      "output": "docs/presentations/assets/ai-chan-sheets-page.jpg",
+      "source": "https://github.com/lmy414/ai-chan-sheets",
+      "capturedDate": "2026-11-09",
+      "operation": "Unmodified browser viewport screenshot"
+    }
+  ],
+  "scriptScenes": [
+    {
+      "scene": 1,
+      "slide": 1,
+      "title": "创作起点"
+    },
+    {
+      "scene": 2,
+      "slide": 2,
+      "title": "先看做出来的游戏"
+    },
+    {
+      "scene": 3,
+      "slide": 3,
+      "title": "角色设定从哪里来"
+    },
+    {
+      "scene": 4,
+      "slide": 4,
+      "title": "最初的多角色联想"
+    },
+    {
+      "scene": 5,
+      "slide": 5,
+      "title": "为什么只操作一个主角"
+    },
+    {
+      "scene": 6,
+      "slide": 6,
+      "title": "SWOT 与玩法定型"
+    },
+    {
+      "scene": 7,
+      "slide": 7,
+      "title": "主角与武器设定"
+    },
+    {
+      "scene": 8,
+      "slide": 8,
+      "title": "卡牌召唤的来源"
+    },
+    {
+      "scene": 9,
+      "slide": 9,
+      "title": "把角色特点做成技能"
+    },
+    {
+      "scene": 10,
+      "slide": 10,
+      "title": "技术方案：先确定角色用 2D"
+    },
+    {
+      "scene": 11,
+      "slide": 11,
+      "title": "视角：固定斜俯视"
+    },
+    {
+      "scene": 12,
+      "slide": 12,
+      "title": "按角色分配动画方向"
+    },
+    {
+      "scene": 13,
+      "slide": 13,
+      "title": "工具分工"
+    },
+    {
+      "scene": 14,
+      "slide": 14,
+      "title": "人形动画制作"
+    },
+    {
+      "scene": 15,
+      "slide": 15,
+      "title": "非人形敌人的动画"
+    },
+    {
+      "scene": 16,
+      "slide": 16,
+      "title": "最容易返工的细节"
+    },
+    {
+      "scene": 17,
+      "slide": 17,
+      "title": "当前不足与打磨顺序"
+    },
+    {
+      "scene": 18,
+      "slide": 18,
+      "title": "素材应该花在哪里"
+    },
+    {
+      "scene": 19,
+      "slide": 19,
+      "title": "收尾与下一步"
+    }
+  ],
+  "storyboardShotCount": 57
+}

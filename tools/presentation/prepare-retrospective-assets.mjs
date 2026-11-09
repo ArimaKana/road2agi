@@ -64,13 +64,18 @@ for (const [name, dir] of animations) {
     '-shortest', '-loop', '0', path.join(root, output)], { stdio: 'inherit' });
   manifest.push({ output, source: dir, frameStep: 4, fps: 10, operation: 'Animated GIF loop composited on the slide background' });
 }
-const { inspirationGames = [] } = JSON.parse(await fs.readFile(path.join(root, 'docs/presentations/road2agi-retrospective.json'), 'utf8'));
+const { inspirationGames = [], supplementalAssets = [] } = JSON.parse(await fs.readFile(path.join(root, 'docs/presentations/road2agi-retrospective.json'), 'utf8'));
 for (const game of inspirationGames) {
   const response = await fetch(game.imageUrl, { signal: AbortSignal.timeout(30000) });
   if (!response.ok) throw new Error(`Could not fetch ${game.name} cover: ${response.status}`);
   await sharp(Buffer.from(await response.arrayBuffer())).resize({ width: 600, withoutEnlargement: true })
     .webp({ quality: 90 }).toFile(path.join(root, game.cover));
   manifest.push({ output: game.cover, source: game.imageUrl, sourcePage: game.sourceUrl, subject: game.name, operation: 'Proportional resize and WebP encoding of the complete game cover' });
+}
+// Browser captures are authored separately; retain their provenance on rebuild.
+for (const asset of supplementalAssets) {
+  await fs.access(path.join(root, asset.output));
+  manifest.push(asset);
 }
 await fs.writeFile(path.join(root, 'docs/presentations/assets.json'), JSON.stringify(manifest, null, 2) + '\n');
 console.log(`Prepared ${manifest.length} presentation images.`);
