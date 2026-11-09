@@ -1,0 +1,1571 @@
+{
+ "pxPerMetre": 64,
+ "entities": {
+  "e01": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 4,
+   "rows": 9,
+   "cell": [
+    264,
+    95
+   ],
+   "anchor": [
+    0.47926388888888904,
+    0.4304315789473684
+   ],
+   "metres": [
+    4.125,
+    1.484375
+   ],
+   "top": 0.40711458333333334,
+   "frames": 18,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    }
+   },
+   "moving": true,
+   "file": "enemies/e01.webp"
+  },
+  "e02": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 7,
+   "rows": 6,
+   "cell": [
+    213,
+    194
+   ],
+   "anchor": [
+    0.4924843505477308,
+    0.24837027491408947
+   ],
+   "metres": [
+    3.328125,
+    3.03125
+   ],
+   "top": 1.7898671874999994,
+   "frames": 21,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "shield_break": {
+     "start": 18,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e02.webp"
+  },
+  "e03": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 7,
+   "rows": 6,
+   "cell": [
+    135,
+    176
+   ],
+   "anchor": [
+    0.4730296296296296,
+    0.22938446969696968
+   ],
+   "metres": [
+    2.109375,
+    2.75
+   ],
+   "top": 1.895546875,
+   "frames": 18,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    }
+   },
+   "moving": true,
+   "file": "enemies/e03.webp"
+  },
+  "e04": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 6,
+   "rows": 8,
+   "cell": [
+    255,
+    154
+   ],
+   "anchor": [
+    0.49233594771241834,
+    0.2509393939393939
+   ],
+   "metres": [
+    3.984375,
+    2.40625
+   ],
+   "top": 1.5038203125,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "summon": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e04.webp"
+  },
+  "e05": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 6,
+   "rows": 8,
+   "cell": [
+    203,
+    161
+   ],
+   "anchor": [
+    0.5813407224958949,
+    0.25127018633540366
+   ],
+   "metres": [
+    3.171875,
+    2.515625
+   ],
+   "top": 1.551518229166667,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "split": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 2
+    }
+   },
+   "moving": true,
+   "file": "enemies/e05.webp"
+  },
+  "e06": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 5,
+   "rows": 8,
+   "cell": [
+    269,
+    160
+   ],
+   "anchor": [
+    0.48874349442379184,
+    0.19474999999999998
+   ],
+   "metres": [
+    4.203125,
+    2.5
+   ],
+   "top": 1.87875,
+   "frames": 18,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    }
+   },
+   "moving": true,
+   "file": "enemies/e06.webp"
+  },
+  "e07": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 8,
+   "rows": 6,
+   "cell": [
+    145,
+    171
+   ],
+   "anchor": [
+    0.5126275862068965,
+    0.27296491228070163
+   ],
+   "metres": [
+    2.265625,
+    2.671875
+   ],
+   "top": 1.58325,
+   "frames": 21,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "drop_mine": {
+     "start": 18,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e07.webp"
+  },
+  "e08": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 7,
+   "rows": 7,
+   "cell": [
+    227,
+    208
+   ],
+   "anchor": [
+    0.4896607929515418,
+    0.32791662707104563
+   ],
+   "metres": [
+    3.546875,
+    3.25
+   ],
+   "top": 1.6676953124999998,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "teleport": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e08.webp"
+  },
+  "e09": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 6,
+   "rows": 8,
+   "cell": [
+    329,
+    244
+   ],
+   "anchor": [
+    0.49672823008579087,
+    0.2119467213114753
+   ],
+   "metres": [
+    5.140625,
+    3.8125
+   ],
+   "top": 2.6748281250000012,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "combo": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e09.webp"
+  },
+  "e10": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 7,
+   "rows": 7,
+   "cell": [
+    185,
+    198
+   ],
+   "anchor": [
+    0.49658558558558563,
+    0.24318518518518506
+   ],
+   "metres": [
+    2.890625,
+    3.09375
+   ],
+   "top": 1.8223333333333336,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "overheat": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e10.webp"
+  },
+  "e11": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 7,
+   "rows": 6,
+   "cell": [
+    191,
+    171
+   ],
+   "anchor": [
+    0.5070479930191971,
+    0.34170370370370373
+   ],
+   "metres": [
+    2.984375,
+    2.671875
+   ],
+   "top": 1.487294270833333,
+   "frames": 21,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "link": {
+     "start": 18,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e11.webp"
+  },
+  "e12": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 6,
+   "rows": 8,
+   "cell": [
+    312,
+    254
+   ],
+   "anchor": [
+    0.4938055555555556,
+    0.25709383202099734
+   ],
+   "metres": [
+    4.875,
+    3.96875
+   ],
+   "top": 2.887463541666667,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "memory_cut": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e12.webp"
+  },
+  "e02e": {
+   "directions": [
+    "UL",
+    "UR",
+    "DL",
+    "DR"
+   ],
+   "columns": 10,
+   "rows": 10,
+   "cell": [
+    214,
+    212
+   ],
+   "anchor": [
+    0.4919392523364487,
+    0.3141101833271398
+   ],
+   "metres": [
+    3.34375,
+    3.3125
+   ],
+   "top": 2.1232421875000003,
+   "frames": 25,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "shield_break": {
+     "start": 18,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    },
+    "stomp": {
+     "start": 21,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e02e.webp"
+  },
+  "e06e": {
+   "directions": [
+    "UL",
+    "UR",
+    "DL",
+    "DR"
+   ],
+   "columns": 8,
+   "rows": 9,
+   "cell": [
+    275,
+    192
+   ],
+   "anchor": [
+    0.5467406060606061,
+    0.26635763888888897
+   ],
+   "metres": [
+    4.296875,
+    3.0
+   ],
+   "top": 2.0685572916666675,
+   "frames": 18,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    }
+   },
+   "moving": true,
+   "file": "enemies/e06e.webp"
+  },
+  "e09e": {
+   "directions": [
+    "UL",
+    "UR",
+    "DL",
+    "DR"
+   ],
+   "columns": 9,
+   "rows": 10,
+   "cell": [
+    326,
+    244
+   ],
+   "anchor": [
+    0.4938083196896091,
+    0.17565915300546453
+   ],
+   "metres": [
+    5.09375,
+    3.8125
+   ],
+   "top": 3.0422812500000003,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "combo": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e09e.webp"
+  },
+  "e12e": {
+   "directions": [
+    "UL",
+    "UR",
+    "DL",
+    "DR"
+   ],
+   "columns": 9,
+   "rows": 10,
+   "cell": [
+    330,
+    261
+   ],
+   "anchor": [
+    0.49354191919191925,
+    0.27334099616858243
+   ],
+   "metres": [
+    5.15625,
+    4.078125
+   ],
+   "top": 2.8749270833333336,
+   "frames": 22,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 3,
+     "frames": 3,
+     "loop": true,
+     "hit": 0
+    },
+    "windup": {
+     "start": 6,
+     "frames": 2,
+     "loop": false,
+     "hit": 2
+    },
+    "attack": {
+     "start": 8,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "recover": {
+     "start": 11,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "hit": {
+     "start": 13,
+     "frames": 2,
+     "loop": false,
+     "hit": 0
+    },
+    "death": {
+     "start": 15,
+     "frames": 3,
+     "loop": false,
+     "hit": 0
+    },
+    "memory_cut": {
+     "start": 18,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/e12e.webp"
+  },
+  "b01": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 11,
+   "rows": 10,
+   "cell": [
+    324,
+    313
+   ],
+   "anchor": [
+    0.5733967724944273,
+    0.3824097026424389
+   ],
+   "metres": [
+    5.936097615267634,
+    5.73456343697151
+   ],
+   "top": 2.6,
+   "frames": 55,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 4,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "rush": {
+     "start": 8,
+     "frames": 5,
+     "loop": false,
+     "hit": 1
+    },
+    "slam": {
+     "start": 13,
+     "frames": 5,
+     "loop": false,
+     "hit": 1
+    },
+    "sweep": {
+     "start": 18,
+     "frames": 6,
+     "loop": false,
+     "hit": 1
+    },
+    "adds_cast": {
+     "start": 24,
+     "frames": 5,
+     "loop": false,
+     "hit": 2
+    },
+    "stagger": {
+     "start": 29,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    },
+    "phase_change": {
+     "start": 33,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "death": {
+     "start": 40,
+     "frames": 8,
+     "loop": false,
+     "hit": 4
+    },
+    "enter": {
+     "start": 48,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    }
+   },
+   "moving": true,
+   "file": "enemies/b01.webp"
+  },
+  "b02": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 13,
+   "rows": 9,
+   "cell": [
+    309,
+    416
+   ],
+   "anchor": [
+    0.5211892440023026,
+    0.37216905474012585
+   ],
+   "metres": [
+    5.514929652134346,
+    7.424630211287663
+   ],
+   "top": 3.0,
+   "frames": 58,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "move": {
+     "start": 4,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "prism_lance": {
+     "start": 8,
+     "frames": 6,
+     "loop": false,
+     "hit": 3
+    },
+    "mirror_split": {
+     "start": 14,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "mirror_sweep": {
+     "start": 21,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "decoy_break": {
+     "start": 28,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    },
+    "stagger": {
+     "start": 32,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    },
+    "phase_change": {
+     "start": 36,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "death": {
+     "start": 43,
+     "frames": 8,
+     "loop": false,
+     "hit": 3
+    },
+    "enter": {
+     "start": 51,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    }
+   },
+   "moving": true,
+   "file": "enemies/b02.webp"
+  },
+  "b03": {
+   "directions": [
+    "D"
+   ],
+   "columns": 8,
+   "rows": 8,
+   "cell": [
+    473,
+    489
+   ],
+   "anchor": [
+    0.543568145934433,
+    0.3600830751918298
+   ],
+   "metres": [
+    8.707493990316609,
+    9.002039241574675
+   ],
+   "top": 5.2,
+   "frames": 57,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "sweep": {
+     "start": 4,
+     "frames": 6,
+     "loop": false,
+     "hit": 2
+    },
+    "stamp": {
+     "start": 10,
+     "frames": 6,
+     "loop": false,
+     "hit": 2
+    },
+    "ritual": {
+     "start": 16,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "arm_break": {
+     "start": 23,
+     "frames": 5,
+     "loop": false,
+     "hit": 1
+    },
+    "stagger": {
+     "start": 28,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    },
+    "phase_change": {
+     "start": 32,
+     "frames": 8,
+     "loop": false,
+     "hit": 3
+    },
+    "death": {
+     "start": 40,
+     "frames": 9,
+     "loop": false,
+     "hit": 4
+    },
+    "enter": {
+     "start": 49,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "freed": {
+     "start": 56,
+     "frames": 1,
+     "loop": false,
+     "hit": 0
+    }
+   },
+   "moving": true,
+   "file": "enemies/b03.webp"
+  },
+  "b04": {
+   "directions": [
+    "L",
+    "R"
+   ],
+   "columns": 14,
+   "rows": 11,
+   "cell": [
+    292,
+    346
+   ],
+   "anchor": [
+    0.49571838322885353,
+    0.3389133685208868
+   ],
+   "metres": [
+    4.911074748720622,
+    5.819287202251148
+   ],
+   "top": 3.4,
+   "frames": 72,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 5,
+     "loop": true,
+     "hit": 0
+    },
+    "ring_fire": {
+     "start": 5,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "sector_pulse": {
+     "start": 12,
+     "frames": 7,
+     "loop": false,
+     "hit": 3
+    },
+    "core_beam": {
+     "start": 19,
+     "frames": 8,
+     "loop": false,
+     "hit": 4
+    },
+    "collapse": {
+     "start": 27,
+     "frames": 8,
+     "loop": false,
+     "hit": 4
+    },
+    "expose": {
+     "start": 35,
+     "frames": 5,
+     "loop": false,
+     "hit": 1
+    },
+    "stagger": {
+     "start": 40,
+     "frames": 4,
+     "loop": false,
+     "hit": 1
+    },
+    "phase_change": {
+     "start": 44,
+     "frames": 8,
+     "loop": false,
+     "hit": 4
+    },
+    "death": {
+     "start": 52,
+     "frames": 12,
+     "loop": false,
+     "hit": 6
+    },
+    "enter": {
+     "start": 64,
+     "frames": 8,
+     "loop": false,
+     "hit": 4
+    }
+   },
+   "moving": true,
+   "file": "enemies/b04.webp"
+  },
+  "decoy": {
+   "directions": [
+    "D"
+   ],
+   "columns": 4,
+   "rows": 3,
+   "cell": [
+    184,
+    182
+   ],
+   "anchor": [
+    0.49175649909420277,
+    0.1851588574719556
+   ],
+   "metres": [
+    1.8610787272947789,
+    1.8408496106937489
+   ],
+   "top": 1.5,
+   "frames": 12,
+   "actions": {
+    "idle": {
+     "start": 0,
+     "frames": 4,
+     "loop": true,
+     "hit": 0
+    },
+    "appear": {
+     "start": 4,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    },
+    "hit": {
+     "start": 7,
+     "frames": 2,
+     "loop": false,
+     "hit": 1
+    },
+    "disappear": {
+     "start": 9,
+     "frames": 3,
+     "loop": false,
+     "hit": 1
+    }
+   },
+   "moving": true,
+   "file": "enemies/decoy.webp"
+  }
+ }
+}

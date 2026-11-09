@@ -1,0 +1,14 @@
+Tool: built-in image_gen (imagegen skill), transparent_background=false.
+Edit target: art/hero/avatar-512.png
+Final asset: art/ui/game-icon-500.png
+Final format: 500 x 500 pixels, RGB PNG, opaque square background.
+Finishing: high-quality bicubic downscale of the generated square image to the requested dimensions; no further visual edits.
+
+Generation prompt:
+Use case: precise-object-edit.
+Asset type: a square 500 x 500 pixel game icon for Road to AGI.
+Input image 1: EDIT TARGET, the existing DeepSeek protagonist avatar from the user's game. This is the blue-haired anime young adult woman, NOT the corporate whale logo.
+Primary request: Make a modest polished game-icon adaptation of this exact existing portrait. Preserve the same recognizable face, blue eyes, navy-to-cyan hair, hair loop, white frilled maid headband, blue bows, costume, original three-quarter pose, and precise anime illustration style. Keep the character design intact; do not invent a new character.
+Changes: Replace transparent background with a rich dark navy-to-cobalt background with a restrained soft blue halo behind the head, subtle cyan edge lighting, and a few very faint abstract light flecks. Give the existing portrait a little more contrast and clear separation from the background. Add a fine tasteful blue luminous perimeter accent just inside the square edges, subtle and professional, not a thick ornamental frame.
+Composition: Icon artwork fills the complete square canvas, no outer white margin or mockup. Close portrait with the face and shoulders prominent. Retain the complete hair loop and headband within a small safety margin. Keep the overall layout faithful to the reference. All four corners opaque and dark blue, no rounded-corner cutout. Reads clearly as a small game thumbnail.
+Constraints: ONE final square icon, exact output size 500 x 500 pixels if possible. No text, letters, wordmark, watermark, badges, weapons, additional people or objects. The game character is the only subject. Keep this a simple edit of the supplied avatar.

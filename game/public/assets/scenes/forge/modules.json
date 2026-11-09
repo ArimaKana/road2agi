@@ -1,0 +1,684 @@
+{
+ "region": "forge",
+ "tile": 1.5,
+ "wallHeight": 1.2,
+ "modules": {
+  "floor_0": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_1": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_2": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_3": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_4": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_5": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_6": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_7": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "wall_0": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_1": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_2": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_3": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_4": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_5": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_6": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_7": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "door_in_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_in_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_out_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_out_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_boss_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_boss_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_shop_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_shop_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "codex_table": {
+   "min": [
+    -0.9,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    0.9,
+    0.5,
+    1.5
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 60
+  },
+  "quench_tank": {
+   "min": [
+    -0.95,
+    -0.55,
+    0.0
+   ],
+   "max": [
+    0.95,
+    0.55,
+    0.89
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 36
+  },
+  "anvil": {
+   "min": [
+    -1.03,
+    -0.35,
+    0.0
+   ],
+   "max": [
+    0.6,
+    0.35,
+    1.002
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 72
+  },
+  "supply_counter": {
+   "min": [
+    -1.25,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    1.25,
+    0.5,
+    1.24
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 36
+  },
+  "lever": {
+   "min": [
+    -0.3,
+    -0.3,
+    0.0
+   ],
+   "max": [
+    0.3,
+    0.365,
+    1.3
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 44
+  },
+  "data_pad": {
+   "min": [
+    -0.856,
+    -0.9,
+    0.0
+   ],
+   "max": [
+    0.856,
+    0.9,
+    0.145
+   ],
+   "tags": [
+    "walk",
+    "interact"
+   ],
+   "triangles": 72
+  },
+  "cover_crate": {
+   "min": [
+    -0.68,
+    -0.68,
+    0.0
+   ],
+   "max": [
+    0.68,
+    0.68,
+    1.045
+   ],
+   "tags": [
+    "solid",
+    "cover"
+   ],
+   "triangles": 24
+  },
+  "coal_heap": {
+   "min": [
+    -0.581,
+    -0.468,
+    -0.1
+   ],
+   "max": [
+    0.581,
+    0.468,
+    0.58
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 40
+  },
+  "chain_hang": {
+   "min": [
+    -0.4,
+    -0.4,
+    0.3
+   ],
+   "max": [
+    0.4,
+    0.4,
+    2.6
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "ingot_stack": {
+   "min": [
+    -0.5,
+    -0.25,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.25,
+    0.6
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 36
+  },
+  "gear_stand": {
+   "min": [
+    -0.571,
+    -0.15,
+    0.0
+   ],
+   "max": [
+    0.571,
+    0.15,
+    1.4
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 48
+  },
+  "pipe_elbow": {
+   "min": [
+    -0.257,
+    -0.75,
+    0.0
+   ],
+   "max": [
+    0.257,
+    0.88,
+    1.1
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 156
+  },
+  "brazier": {
+   "min": [
+    -0.428,
+    -0.45,
+    0.0
+   ],
+   "max": [
+    0.428,
+    0.45,
+    1.27
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 92
+  },
+  "trap_vent": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.005
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.105
+   ],
+   "tags": [
+    "walk",
+    "split"
+   ],
+   "triangles": 84
+  },
+  "trap_stamper": {
+   "min": [
+    -0.75,
+    -0.25,
+    0.0
+   ],
+   "max": [
+    0.75,
+    0.25,
+    2.8
+   ],
+   "tags": [
+    "fade",
+    "split"
+   ],
+   "triangles": 36
+  },
+  "trap_stamper_head": {
+   "min": [
+    -0.63,
+    -0.63,
+    0.0
+   ],
+   "max": [
+    0.63,
+    0.63,
+    0.9
+   ],
+   "tags": [
+    "split"
+   ],
+   "triangles": 24
+  }
+ }
+}

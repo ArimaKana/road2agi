@@ -1,0 +1,371 @@
+{
+ "region": "zero",
+ "tile": 1.5,
+ "wallHeight": 1.2,
+ "modules": {
+  "floor_0": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_1": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_2": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_3": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "wall_0": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_1": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_2": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_3": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "door_in_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_in_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "archive_monolith": {
+   "min": [
+    -0.5,
+    -0.27,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.25,
+    2.6
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 24
+  },
+  "node_pedestal": {
+   "min": [
+    -0.8,
+    -0.8,
+    0.0
+   ],
+   "max": [
+    0.8,
+    0.8,
+    0.9
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 36
+  },
+  "data_pad": {
+   "min": [
+    -0.9,
+    -0.9,
+    0.0
+   ],
+   "max": [
+    0.9,
+    0.9,
+    0.125
+   ],
+   "tags": [
+    "walk",
+    "interact"
+   ],
+   "triangles": 24
+  },
+  "cover_crate": {
+   "min": [
+    -0.68,
+    -0.68,
+    0.0
+   ],
+   "max": [
+    0.68,
+    0.68,
+    1.045
+   ],
+   "tags": [
+    "solid",
+    "cover"
+   ],
+   "triangles": 24
+  },
+  "cube_float": {
+   "min": [
+    -0.598,
+    -0.556,
+    0.0
+   ],
+   "max": [
+    0.598,
+    0.556,
+    1.878
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 24
+  },
+  "shard": {
+   "min": [
+    -0.38,
+    -0.4,
+    -0.03
+   ],
+   "max": [
+    0.658,
+    0.451,
+    1.6
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 72
+  },
+  "slab_arc": {
+   "min": [
+    -0.95,
+    -0.15,
+    0.0
+   ],
+   "max": [
+    0.95,
+    0.15,
+    2.3
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 36
+  },
+  "plinth": {
+   "min": [
+    -0.5,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.5,
+    0.68
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 24
+  },
+  "trap_scan": {
+   "min": [
+    -0.75,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.75,
+    0.11,
+    0.08
+   ],
+   "tags": [
+    "split"
+   ],
+   "triangles": 12
+  },
+  "trap_erase": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "trap_beacon": {
+   "min": [
+    -0.5,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.5,
+    1.87
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 36
+  }
+ }
+}

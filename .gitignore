@@ -1,0 +1,21 @@
+# Local Claude worktrees
+/.claude/worktrees/
+
+# Local generation outputs and media-processing intermediates
+/art-source
+/qa
+/docs/presentations/
+node_modules/
+dist/
+__pycache__/
+.openai/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.zip
+*.tar.gz
+*.tgz
+.DS_Store
+Thumbs.db

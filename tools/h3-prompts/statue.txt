@@ -1,0 +1,13 @@
+2D anime game sprite animation, clean cel-shaded line art with dark outlines and flat consistent colors, one single boss on a plain chroma-key background.
+
+Boss: {CREATURE} It looks exactly as shown in <Picture 1>. Keep its shapes and colours, the small white hexagon stencil with a short bar inside on the pedestal, and above all the young woman inside its torn-open chest: her orange hair, her cream blouse, black corset and long skirt, her hands on the control handles and the thick cables running from her forearms along the giant arms. <Picture 2> shows the same boss in four states, only as a guide to its parts. There is only one of it in the frame, and she never leaves the machine.
+
+Size: it is drawn as small in the frame as it appears in <Picture 1>, with wide empty green space all around it, and never grows larger. The whole pedestal and the top of its crown stay well inside the frame at all times.
+
+Motion: the giant body copies the simple 3D blocking model in <Video 1> frame by frame, with the same pose, the same timing, the same position in the frame and the same size. The blocking model only drives the motion, do not draw it. {MOTION} She moves with it, as if she is being thrown about at the controls: when a giant arm rises, her arm on that side is dragged up with it, and her hair swings. Her clothes stay on and intact.
+
+{FACING} It keeps this facing through the whole clip and never turns around.
+
+Camera: the same fixed high-angle isometric orthographic camera as <Video 1>, looking down at it. The camera never moves: no pan, no zoom, no orbit, no cuts, no shake.
+
+Background: a perfectly uniform flat pure green #00FF00 over the entire frame, exactly as in <Video 1>. No floor, no ground shadow, no scenery, no particles, no fire, no smoke, no sparks, no glow or light spilling onto the background, no motion trail, no motion blur, no text, no frame. Silent, no music.

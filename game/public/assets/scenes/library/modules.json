@@ -1,0 +1,673 @@
+{
+ "region": "library",
+ "tile": 1.5,
+ "wallHeight": 1.2,
+ "modules": {
+  "floor_0": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_1": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_2": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_3": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_4": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_5": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_6": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "floor_7": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.06
+   ],
+   "max": [
+    0.75,
+    0.75,
+    0.0
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 12
+  },
+  "wall_0": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_1": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_2": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 36
+  },
+  "wall_3": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_4": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_5": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 36
+  },
+  "wall_6": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "wall_7": {
+   "min": [
+    -0.77,
+    -0.77,
+    0.0
+   ],
+   "max": [
+    0.77,
+    0.77,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 24
+  },
+  "door_in_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_in_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_out_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_out_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_boss_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_boss_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_shop_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "door_shop_leaf": {
+   "min": [
+    -0.65,
+    -0.11,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.11,
+    1.2
+   ],
+   "tags": [
+    "solid",
+    "split"
+   ],
+   "triangles": 12
+  },
+  "door_frame": {
+   "min": [
+    -0.75,
+    -0.75,
+    -0.04
+   ],
+   "max": [
+    0.75,
+    0.75,
+    1.58
+   ],
+   "tags": [
+    "fade"
+   ],
+   "triangles": 48
+  },
+  "stele_erased": {
+   "min": [
+    -0.8,
+    -0.45,
+    0.0
+   ],
+   "max": [
+    0.8,
+    0.45,
+    2.21
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 48
+  },
+  "lectern": {
+   "min": [
+    -0.4,
+    -0.35,
+    0.0
+   ],
+   "max": [
+    0.4,
+    0.35,
+    1.265
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 96
+  },
+  "index_cabinet": {
+   "min": [
+    -0.7,
+    -0.4,
+    0.0
+   ],
+   "max": [
+    0.7,
+    0.4,
+    1.78
+   ],
+   "tags": [
+    "solid",
+    "fade",
+    "interact"
+   ],
+   "triangles": 36
+  },
+  "mirror_stand": {
+   "min": [
+    -0.5,
+    -0.45,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.45,
+    2.0
+   ],
+   "tags": [
+    "solid",
+    "fade",
+    "interact"
+   ],
+   "triangles": 60
+  },
+  "supply_counter": {
+   "min": [
+    -1.25,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    1.25,
+    0.5,
+    1.24
+   ],
+   "tags": [
+    "solid",
+    "interact"
+   ],
+   "triangles": 36
+  },
+  "data_pad": {
+   "min": [
+    -0.856,
+    -0.9,
+    0.0
+   ],
+   "max": [
+    0.856,
+    0.9,
+    0.125
+   ],
+   "tags": [
+    "walk",
+    "interact"
+   ],
+   "triangles": 72
+  },
+  "cover_crate": {
+   "min": [
+    -0.68,
+    -0.68,
+    0.0
+   ],
+   "max": [
+    0.68,
+    0.68,
+    1.045
+   ],
+   "tags": [
+    "solid",
+    "cover"
+   ],
+   "triangles": 24
+  },
+  "book_pile": {
+   "min": [
+    -0.4,
+    -0.307,
+    0.0
+   ],
+   "max": [
+    0.438,
+    0.307,
+    0.51
+   ],
+   "tags": [
+    "walk"
+   ],
+   "triangles": 36
+  },
+  "lamp_post": {
+   "min": [
+    -0.209,
+    -0.22,
+    0.0
+   ],
+   "max": [
+    0.209,
+    0.22,
+    2.17
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 96
+  },
+  "ladder": {
+   "min": [
+    -0.39,
+    -0.248,
+    0.011
+   ],
+   "max": [
+    0.39,
+    0.248,
+    2.389
+   ],
+   "tags": [
+    "solid",
+    "fade"
+   ],
+   "triangles": 84
+  },
+  "low_shelf": {
+   "min": [
+    -0.7,
+    -0.27,
+    0.0
+   ],
+   "max": [
+    0.7,
+    0.25,
+    1.0
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 24
+  },
+  "broken_mirror": {
+   "min": [
+    -0.68,
+    -0.462,
+    0.044
+   ],
+   "max": [
+    0.779,
+    0.04,
+    1.456
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 36
+  },
+  "scroll_rack": {
+   "min": [
+    -0.5,
+    -0.35,
+    0.0
+   ],
+   "max": [
+    0.5,
+    0.2,
+    1.2
+   ],
+   "tags": [
+    "solid"
+   ],
+   "triangles": 336
+  },
+  "trap_mirror": {
+   "min": [
+    -0.65,
+    -0.55,
+    0.0
+   ],
+   "max": [
+    0.65,
+    0.55,
+    1.85
+   ],
+   "tags": [
+    "solid",
+    "split",
+    "interact"
+   ],
+   "triangles": 60
+  },
+  "trap_shelf": {
+   "min": [
+    -0.78,
+    -0.5,
+    0.0
+   ],
+   "max": [
+    0.78,
+    0.5,
+    1.75
+   ],
+   "tags": [
+    "solid",
+    "fade",
+    "split"
+   ],
+   "triangles": 48
+  }
+ }
+}

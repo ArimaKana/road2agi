@@ -1,0 +1,44 @@
+{
+ "size": [
+  1169,
+  261
+ ],
+ "lengthMetres": 1.12,
+ "anchors": {
+  "tip": [
+   0.9974,
+   0.6609
+  ],
+  "guard": [
+   0.2665,
+   0.659
+  ],
+  "grip": [
+   0.0915,
+   0.6609
+  ]
+ },
+ "layers": {
+  "grip": {
+   "file": "grip.png",
+   "size": [
+    214,
+    56
+   ]
+  },
+  "blade": {
+   "file": "blade.png",
+   "size": [
+    739,
+    27
+   ]
+  },
+  "guard": {
+   "file": "guard.png",
+   "size": [
+    203,
+    244
+   ]
+  }
+ }
+}

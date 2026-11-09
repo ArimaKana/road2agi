@@ -1,0 +1,13 @@
+2D anime game sprite animation, clean cel-shaded line art with dark outlines and flat consistent colors, one single character on a plain chroma-key background.
+
+Character: {CREATURE} It looks exactly as shown in <Picture 1> and on its design sheet <Picture 2>, which shows it in several states. Keep its shapes and its colours. There is only one of it in the frame.
+
+Size: at every moment it is the same size in the frame as the blocking model in <Video 1>, with wide empty green space all around it.
+
+Motion: it copies the simple 3D blocking model in <Video 1> frame by frame, with the same pose, the same timing, the same position in the frame and the same size. The blocking model only drives the motion, do not draw it. {MOTION}
+
+{FACING} It keeps this facing through the whole clip and never turns around.
+
+Camera: the same fixed camera as <Video 1>. The camera never moves: no pan, no zoom, no orbit, no cuts, no shake.
+
+Background: a perfectly uniform flat pure green #00FF00 over the entire frame, exactly as in <Video 1>. No floor, no ground shadow, no scenery, no glow or light spilling onto the background, no motion trail, no motion blur, no text, no frame. Silent, no music.

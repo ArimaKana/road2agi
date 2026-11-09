@@ -1,0 +1,15 @@
+2D anime game sprite animation, clean cel-shaded line art with flat consistent colors, one single character on a plain chroma-key background.
+
+Character: the blue whale maid girl shown in <Picture 1> and in the three-view turnaround <Picture 2>. Long wavy navy hair fading to sky blue, one curled ahoge, white frilled maid headband, dark whale-fin ears, navy long-sleeve maid dress with puffed shoulders, white frilled apron with a small whale emblem, long navy skirt with a blue striped front panel, gold embroidery and a white ruffled hem, white stockings, navy Mary Jane heels, and exactly one dark navy whale tail with a fluke. Keep her face, outfit, colors and proportions identical to <Picture 1> and <Picture 2> for the whole clip.
+
+Weapon: exactly one slim rapier as drawn in <Picture 3>, gold swept hilt with a blue gem and a long thin straight steel blade, held in her right hand for the whole clip. Her left hand stays empty.
+
+Size: she is drawn as small in the frame as she appears in <Picture 1>, with wide empty green space all around her, and never grows larger.
+
+Motion: she copies the grey mannequin in <Video 1> frame by frame, with the same pose, the same timing, the same position in the frame and the same size. The mannequin only drives the motion, do not draw the mannequin. {MOTION} Hair, skirt and tail follow the motion with natural overlapping movement.
+
+{FACING}
+
+Camera: the same fixed high-angle isometric orthographic camera as <Video 1>, looking down at the character. The camera never moves: no pan, no zoom, no orbit, no cuts, no shake.
+
+Background: a perfectly uniform flat pure green #00FF00 over the entire frame, exactly as in <Video 1>. No floor, no ground shadow, no scenery, no particles, no sword trail, no motion blur, no text, no frame, no other people. Silent, no music.

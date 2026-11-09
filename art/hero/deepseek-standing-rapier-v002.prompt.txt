@@ -1,0 +1,17 @@
+Tool: built-in image_gen; transparent_background=true.
+Final asset: art/hero/deepseek-standing-rapier-v002.png
+Purpose: final protagonist setting illustration, matching the game's rendering style.
+Pose and composition reference: art/hero/deepseek-standing-rapier-v001.png
+In-game style reference: art/hero/keypose/ready_DL.png
+Original character reference: art-source/references/char03_views.jpg
+Character identity source: https://github.com/lmy414/ai-chan-sheets (original character artwork credited to ZipZipPipe).
+
+Final prompt:
+Use case: style-transfer.
+Asset type: transparent full-body protagonist illustration for the Road to AGI game, consistent with its actual in-game character art.
+Input roles: Image 1 is the approved standing portrait and the EDIT TARGET. Its pose, full-body composition, proportions, expression, costume, sword direction and silhouette must remain fixed. Image 2 is the actual in-game DeepSeek character frame: use it ONLY as the rendering-style and palette reference, not as a pose or camera reference. Image 3 is the original character design sheet: use it for line quality, soft anime shading and costume color consistency, not for layout.
+User request: the current image is good, but its art style must fit the game more closely.
+Change only the rendering style of image 1: match image 2's readable 2D anime game-sprite aesthetic and image 3's clean illustration finish. Fine clear dark blue outlines, broad coherent color regions, gently layered cel shading, restrained soft gradients, matte cloth and natural soft hair highlights. Return the hair to the game's muted deep blue with restrained cyan tips; reduce the intense electric-blue highlights. Render the gold embroidery and sword guard with the game's muted warm gold, not highly reflective jewelry. White apron and ruffles should use soft lavender-gray shadows, not glossy satin. Simplify the dense shiny texture and tiny reflective streaks while preserving key costume motifs, readable folds and the sharper, quietly confident face. Maintain visual presence through the silhouette and confident gaze rather than cinematic rim lighting.
+Absolute pose lock: identical upright standing posture and close-together feet as image 1. Anatomical RIGHT hand remains low beside her body holding the same rapier, complete blade angled down to the viewer's lower-left. Anatomical LEFT hand stays relaxed beside the hip. Same head and torso angle, same hairstyle and whale-tail placement. Do not raise the sword, spread her feet, lunge, use an isometric camera, or copy the in-game reference's combat stance. Keep the adult character identity, long Victorian maid dress and fully covered outfit exactly.
+Final image: clean high-resolution drawing, approximately 1024x1536 portrait. Do not pixelate or imitate the low-resolution edges of the game sprite. Entire hair loop, feet, sword tip, tail and skirt inside the canvas, same modest transparent margin. True transparent alpha outside the character and sword and in all negative spaces. No background gradient, colored glow, rim-light halo, floor shadow, vignette, checkerboard, scenery, text, logo or watermark.
+

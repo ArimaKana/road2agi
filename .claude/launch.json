@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "road-to-agi",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "game", "run", "dev"],
+      "port": 4173
+    },
+    {
+      "name": "road-to-agi-dist",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "game", "run", "preview", "--", "--port", "4174", "--strictPort"],
+      "port": 4174
+    }
+  ]
+}

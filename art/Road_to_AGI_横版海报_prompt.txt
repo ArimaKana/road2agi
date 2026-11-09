@@ -1,0 +1,88 @@
+Use case: identity-preserve.
+Asset type: corrected horizontal key art for ROAD to AGI, ILLUSTRATION ONLY, no title layer.
+Primary request: revise the supplied landscape poster so EVERY face matches its actual in-game character reference, including Liang Wenfeng. Keep a full 16:9 landscape canvas, and make the COMPLETE main ensemble safely center-croppable to 4:3.
+
+INPUT ROLES:
+Image 1 is the EDIT TARGET: the new deep-navy-blue and gold horizontal poster. Keep this scene, protagonist-led ensemble idea, right-handed rapier, blue shushing guardian, elaborate anime illustration, ruins and deep-blue/gold lighting.
+Image 2 is the authoritative in-game FACE IDENTITY sheet. Top-left DeepSeek, top-right Liang Wenfeng, bottom-left GLM, bottom-right Kimi.
+Image 3 is the authoritative in-game FACE IDENTITY sheet. Top-left GPT, top-right Claude, bottom-left Grok, bottom-right Gemini.
+Image 4 is the authoritative in-game FACE IDENTITY sheet. Top-left Qwen, top-right Seed, bottom-left MiniMax. Bottom-right is empty.
+These sheets are actual crops of the game artwork, not approximate concept references. Their facial geometry and distinguishing features OVERRIDE the inaccurate faces in Image 1. The labels are reference annotations only and must NEVER appear in the finished picture.
+
+FACE CORRECTION IS THE MAIN PRIORITY:
+Repaint all eleven main faces with the corresponding game reference's exact eye shapes, eye color, brow shapes, nose, mouth, jaw shape, facial proportions, characteristic bangs/hair framing and head accessories. Carry the softness and refined shading of the game portraits into the poster faces; remove generic same-face anime expressions and exaggerated orange/red facial tint. Match the actual individual identities, not just the hair color. Keep expressions determined and composed with slight individual differences. Maintain the existing ensemble pose concept and costume silhouettes while correcting the heads and neck integration. Natural skin tones. No pasted rectangular crops or visible seams.
+DeepSeek: game-reference blue eyes, game-specific side-swept layered cobalt bangs, face silhouette, curled cowlick, white frilled maid headdress, cyan bow and lateral fin/frill features. Her right hand still holds the rapier correctly.
+Liang Wenfeng: the game guardian's adult masculine face, broad angular cheek and jaw planes, distinct nose, brows and rectangular glasses, short swept blue hair. His face MUST be re-drawn to match the actual game image, not the earlier poster's generic young male face. Retain the poster's index-finger-to-lips shushing gesture and half-transparent blue suit apparition. A slight three-quarter angle is welcome to match his source features; no need to copy the fist action of the reference. Entire apparition remains monochrome luminous blue.
+GLM: black fox ears and long black hair, soft gray-violet eyes, slender calm face, the black sleep-mask headband with white eyelash motifs and hanging silver bells from the game.
+Kimi: silver-lavender hair, violet eyes, gentle game-specific face, white lace headband, moon/prism hair accessory.
+GPT: white/silver hair, pale violet eyes, soft angular face, white horns and rose details from the game.
+Claude: long orange hair, amber eyes with game-reference narrower shape, flower hair ornament, composed face.
+Grok is the BLONDE character: blue eyes, slight fang, small crescent crown, black-red hair bow, playful confident game-reference face. Do NOT confuse her with Gemini.
+Gemini is the VIOLET-HAIRED CAT-EARED character: twin side hair buns, four-point star ornament, the reference's heterochromia (viewer-left eye pink, viewer-right eye amber). Do NOT confuse her with Grok.
+Qwen: light periwinkle-blue hair, purple eyes, game-specific softer face and side braid, small flowered hat. Keep her folding fan.
+Seed: purple eyes, violet-to-cyan high ponytail, cyan hair ring and the reference's distinct face; keep her small doll.
+MiniMax: coral-orange bob, warm reddish eyes, the game-reference cheek and jaw proportions, white shell-emblem cap with coral bow.
+
+16:9 / 4:3 COMPOSITION REQUIREMENT:
+Output a SINGLE exact 16:9 landscape image. Treat x=12.5% and x=87.5% as INVISIBLE vertical crop boundaries: the entire central 75% of the width will later become a 4:3 poster. ALL eleven faces, full heads, defining ears/horns/crowns, the guardian head, essential hands/props, and the future bottom-center logo area must fit comfortably INSIDE those boundaries, preferably x=17% to83%. Compact/reposition the side companions inward to achieve this. Do not simply crop off the two edge characters. Keep DeepSeek large and dominant in the central foreground. Compose the other nine as balanced staggered rows around her, with clear faces and no duplicated/omitted individuals. Keep the blue guardian centered high behind the group, his hair completely inside the top border with breathing room.
+Only expendable ruin scenery, navy mist, gold arcs and secondary hair/fabric trails may occupy the outermost left and right 12.5% strips. The full 16:9 version must still feel visually complete, and the central 4:3 version must retain the complete cast. Never draw crop marks, guide lines, frames or black bars.
+Keep a quiet deep-navy lower center at x=23%..77%, y=81%..97% for the authentic game wordmark that will be composited separately. No important face/hand/prop in this zone.
+
+Preserve richly saturated midnight navy (#09192f / #10294b) and cobalt background with warm champagne gold accents, eye-level group perspective, clean anime rendering and natural white costume areas.
+ABSOLUTE EXCLUSIONS: no generated title, no letters, no logo, no simulated logo, no captions, no reference-sheet labels, no watermark, no whale-tail title emblem, no underline decoration, no clock. One cohesive finished landscape illustration.
+
+FINAL REFINEMENT PROMPT (DeepSeek expression and gaze; 4:3 safe composition):
+
+Edit Image 1, the approved face-corrected deep-blue/gold landscape game poster. Make exactly these two final refinements, retaining its setting, all eleven individual characters and polished game-art style.
+
+1. DEEPSEEK MUST ENGAGE THE VIEWER GENTLY.
+DeepSeek is the blue-haired foreground protagonist at center. Turn her face toward the camera, nearly frontal, and make BOTH blue eyes look DIRECTLY AT THE VIEWER. Give her relaxed soft eyebrows, an open approachable gaze and a very small warm CLOSED-MOUTH SMILE. She is calm, friendly and quietly confident. She must NOT scowl, glare, furrow her brow, have sharply downward-V angry eyebrows, or look sideways/offscreen. Do not make the smile exaggerated or childish. Image 2 TOP-LEFT is her actual in-game SMILING portrait: use this as the exact facial identity and expression reference, but turn her head and gaze to camera rather than copying that portrait's side angle. Retain her game-specific face proportions, side-swept layered cobalt bangs, blue eyes, curled cowlick, cyan bow, white frilled headdress and fin-like side frills. Keep her body and correct RIGHT-HANDED rapier action.
+
+2. MAKE THE FULL CAST FIT A CENTRAL 4:3 CROP.
+The OUTPUT CANVAS remains full 16:9 landscape. The central 75% of this canvas, x=12.5%..87.5%, will be cut out unchanged as a 4:3 poster. The current edge characters are TOO FAR OUT and their heads would be cut off. Bring the COMPLETE side characters inward, not just their eyes. All full heads, hair crowns, ears/horns/crowns, faces and essential hands must lie INSIDE x=17%..83%, with breathing room. Specifically MOVE the violet cat-eared Gemini from the far left inward until her face center is x=24%, and MOVE the blonde Grok from the far right inward until her face center is x=76%. Their complete heads must fit safely, not just half their faces. Re-stage the other companions around them, creating a compact layered group around DeepSeek. Suggested face centers: MiniMax (30%,23%), GPT (39%,37%), GLM (33%,57%), Qwen (61%,24%), Seed (71%,25%), Claude (62%,43%), Kimi (67%,57%). DeepSeek remains large at center, face around (50%,49%). Guardian remains centered high behind them, fully visible with top margin. Adjust these slightly for graceful non-overlapping faces, but honor the safe margins absolutely. Side bodies, hair and fabric can overlap naturally. Do not distort or horizontally squash anatomy.
+The leftmost and rightmost ~16% of the full canvas should be primarily the expendable navy-blue ruins, blue mist and gold energy arcs; NO faces near the canvas edges. This should still look like a grand landscape poster with a unified central group, no visible frames or panels.
+Keep a calm deep-navy title zone in the lower center, x=23%..77%, y=83%..98%, free of important faces, hands and bright ornamentation.
+
+Image 1 is the EDIT TARGET and overall scene reference. Images 2,3,4 are actual in-game face references. Image 2: top-left DeepSeek smiling, top-right Liang Wenfeng, bottom-left GLM, bottom-right Kimi. Image 3: top-left GPT, top-right Claude, bottom-left blonde Grok, bottom-right violet cat-eared Gemini. Image 4: top-left Qwen, top-right Seed, bottom-left MiniMax. Preserve their corrected individual identities and eye colors. In particular preserve the current improved Liang Wenfeng face from Image 1, matching the game guardian's masculine angular facial structure and glasses, with the finger-to-lips shushing pose and luminous half-transparent BLUE suit apparition. Keep Gemini's viewer-left pink eye and viewer-right golden eye.
+
+PALETTE AND SCENE LOCKED: rich midnight navy, cobalt, controlled warm champagne-gold accents, natural skin and white fabrics; ruined arches; clear refined anime game-art rendering. All eleven characters exactly once.
+ABSOLUTELY NO text, letters, captions, logos, title emblems, underline ornaments, labels from the sheets, watermarks, crop guides or border. We will add the genuine game Logo deterministically AFTER generation. Single full 16:9 illustration.
+
+
+PRODUCTION RECORD
+Mode: built-in image_gen, followed by deterministic composition of the authentic game title (not generated).
+Approved illustration: art/Road_to_AGI_横版海报_无字.png
+Landscape export: art/Road_to_AGI_横版海报.png (1920 x 1080, 16:9).
+4:3 export: art/Road_to_AGI_海报_4比3.png (1440 x 1080), exact center crop of the landscape at left=240, top=0.
+Genuine logo export: art/ui/game-logo.png, rendered with the h1 markup and title CSS from game/src/components/HomeScreen.vue, --gold-hi from game/src/style.css, and the game's two bundled title fonts. No generated title lettering is present in the illustration.
+Re-export command: node tools/poster_exports.mjs
+Reference sources: art/hero/face-smile-512.png (DeepSeek's high-resolution game smile portrait); game/public/assets/liangwenfeng-avatar-v001.webp; game/public/assets/cards/{glm,kimi,gpt,claude,grok,gemini,qwen,seed,minimax}-figure.webp.
+The three labeled reference sheets are deterministic crops of these assets; their labels are not included in the poster.
+Final art direction: deep navy and champagne gold; all eleven faces follow the game portraits; DeepSeek looks directly into the camera with relaxed brows and Qwen-like calm, restrained composure; complete heads and the real logo fit in the central 4:3 composition. The genuine logo has a feathered navy vignette beneath it.
+
+Logo readability refinement: add a feathered deep-navy (#050e22) radial vignette beneath the authentic logo, composited by tools/poster_exports.mjs. The vignette fades out before the character faces and has no hard rectangular edge. Both poster sizes are regenerated from the same illustration and logo without another image-generation pass.
+
+LATEST EXPRESSION REFINEMENT (Qwen is the user's final expression reference; overrides the previous smile instruction):
+
+Use case: precise-object-edit.
+Make ONE tiny, local facial-expression edit to Image 1, the supplied 16:9 deep-blue/gold game poster without text.
+
+The subject to edit is ONLY DeepSeek, the blue-haired maid protagonist at the exact center foreground, whose face is around x=50%, y=50%. She currently has a bright friendly smile.
+The user's final instruction is: make DeepSeek's expression like QWEN's. Image 2 is a close-up of Qwen FROM THIS SAME POSTER (the periwinkle-haired fan-holder with a small flowered hat in the upper-right group). Use Image 2 ONLY as an EXPRESSION reference, not as a face-identity reference.
+
+DeepSeek should have Qwen's calm, composed, restrained expression: relaxed brow muscles; gently settled upper eyelids; an attentive but soft gaze; CLOSED LIPS with an almost level mouth line and only the slightest natural lift at the corners, less smile than before. Quiet confidence, a little thoughtful, neither stern nor fierce. Keep her eyebrows soft, no furrow, no angry downward-V, no pout. No big grin, no visible teeth, no exaggerated blush, no cheeky or childlike smile. The expression should read as the same serene composure Qwen has in Image 2.
+CRUCIAL: DeepSeek STILL faces almost straight toward the camera and BOTH BLUE EYES look DIRECTLY AT THE VIEWER. Preserve her actual in-game DeepSeek face identity, blue iris color, facial proportions, nose, jaw, skin tone, bangs, cyan hair bows, curled cowlick, frilled headdress and fin-like side ornaments. Borrow ONLY Qwen's restrained expression, never Qwen's face, purple eyes, hair or hat.
+
+LOCK EVERYTHING ELSE: exact full canvas and crop-safe composition, all other ten characters including Qwen and Liang Wenfeng, every other face/expression, all hands and props, DeepSeek's correct right-hand sword grip, poses, clothing, hair, architecture, sky, spark placement, light, colors, background, navy lower title area. Do not reposition or rescale any person. Do not change DeepSeek's head angle or gaze direction. Only adjust her eyelids, brows and closed mouth delicately. A very small local edit, not a redesign.
+Return one full 16:9 illustration with the same framing. NO logo, text, lettering, watermark or added ornament; the authentic game logo and its navy vignette will be composited separately from the existing deterministic export pipeline.
+
+SATURATION REFINEMENT (logo remains on its original, ungraded layer):
+
+Use case: lighting-weather.
+Perform a COLOR-GRADING-ONLY edit of this approved game-poster illustration. The user says its saturation is a little too high and wants slightly lower saturation everywhere except the genuine game logo, which is on a separate layer and is NOT part of this input image.
+
+Lower the illustration's overall color saturation gently, approximately 15–20 percent. Reduce the intensity of the electric blue and violet hues, red/orange hair and vivid colored lighting together in a balanced way. Keep it clearly a rich DEEP NAVY BLUE AND GOLD poster: muted a little, more comfortable to look at, still colorful and luminous. Keep natural skin tones and neutral white fabrics. Preserve the existing brightness, contrast, black point, exposure and color-hue relationships. Do not turn it gray, flat, sepia, pastel or cloudy.
+
+This is strictly a subtle saturation adjustment, NOT a redraw or new interpretation. Preserve the EXACT image composition, all eleven people, every face identity and expression, eye direction, body anatomy, hands, the sword, costumes, hair strands, linework, details, ruins, clouds, gold sparks and energy arcs. DeepSeek still faces the viewer with the existing calm Qwen-like expression. The blue guardian, and every other face, remain identical in shape and expression. Keep the exact 16:9 framing and central 4:3 crop safety. No objects moved or added. No new detail. No reshaping. Only slightly lower the strength of the existing colors.
+Return the same full poster illustration, without any text or logo. The original game logo and the already-approved navy vignette will be composited on top afterward so the logo retains its exact original gold and white colors. Do not add letters, title, watermark, borders or ornaments.
+

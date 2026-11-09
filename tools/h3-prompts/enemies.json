@@ -1,0 +1,241 @@
+{
+  "e01": {
+    "creature": "a small worm of seven separate cube segments, slate blue with cream-white noise pixels, shrinking toward the tail, with a bigger bright pale cyan cube for a head.",
+    "motions": {
+      "idle": "It lies low on the ground in a gentle S curve, swaying a little as if breathing, and stays on the same spot.",
+      "move": "A hump runs along its body from head to tail again and again as it crawls on the spot, without moving through the frame.",
+      "attack": "It bunches up behind its raised head into one swollen round clump with glowing cream-white gaps, trembles, then shoots out in a flat straight line along the ground in the direction it faces, lands stretched out and flat, and slowly gathers back into its S curve where it landed.",
+      "hit": "It is knocked back a little and squashed, the head jerks up, and it settles back into its S curve.",
+      "death": "It is knocked back and its cubes burst apart and scatter over the ground, shrinking, and lie still."
+    }
+  },
+  "e03": {
+    "creature": "a walking parcel: one battered cardboard-tan cube with slate-blue tape, a round pale-blue camera lens on its front instead of a face, two long thin dark bird-like mechanical legs, two thin jointed arms, and a small stack of parcels strapped to its back.",
+    "motions": {
+      "idle": "It stands on its thin legs, slightly hunched, breathing a little, and stays on the same spot.",
+      "move": "It walks on the spot on its thin legs with its arms swinging, without moving through the frame.",
+      "attack": "It reaches back, lifts a small bundle of three pale-blue packets with both arms high above its body, bending its legs and leaning back to brace, holds it there, then throws the bundle forward in the direction it faces so that it flies out of its hands, stumbles forward with empty hands, and settles back into its idle stance.",
+      "hit": "It rocks backward on bent legs from a blow and settles back into its idle stance.",
+      "death": "It rocks backward, its legs buckle and it topples onto its back on the ground, the parcels on its back spill off, and it lies still."
+    }
+  },
+  "e07": {
+    "creature": "a floating machine jellyfish: a smooth faceted violet-grey bell that looks semi-transparent, with one round circuit-chip disc visible inside it, and six thin straight silver tentacles hanging below with small square beads. Its tentacle tips float above the ground.",
+    "motions": {
+      "idle": "It floats in place, rising and sinking slowly with its tentacles swaying a little.",
+      "move": "Its bell pulses, narrowing and widening again and again as its tentacles trail and sway, floating on the spot without moving through the frame.",
+      "attack": "Its bell squeezes tall and narrow while its tentacles curl up and hold one round spiked white mine beneath it, it holds there, then its tentacles open and the mine drops to the ground and disappears, and the bell springs back to its wide resting shape.",
+      "hit": "Its bell is dented and pushed back from a blow, its tentacles swing, and it settles back into place.",
+      "death": "It is pushed back, its bell deflates and flattens as it sinks to the ground, its tentacles go limp and splay out, and it lies still."
+    }
+  },
+  "e10": {
+    "creature": "a squat walking furnace: one fat faceted iron boiler in warm grey, a big round mouth glowing amber on its front, rows of radiator fins along its top and sides, very short stubby legs, no head and no arms.",
+    "motions": {
+      "idle": "It sits low and still, its body swelling very slightly as if breathing, and stays on the same spot.",
+      "move": "It waddles on the spot, rocking from side to side on its short legs, without moving through the frame.",
+      "attack": "It squashes down and all its radiator fins flare wide open like a big fan around its body. The disc inside its round mouth turns a steady bright amber and stays inside the rim. Its body swells very slightly three times in a steady rhythm, like slow breaths, then it sags with its fins still open, and finally the fins fold shut and it returns to its resting shape. Nothing ever comes out of its mouth: no flame, no blast, no smoke, no sparks, no light.",
+      "hit": "It is shoved back a little and squashes, rocks, and settles back into place.",
+      "death": "Its fins flare open and droop, its boiler sags and tilts as it sinks down onto the ground, the glow in its mouth goes dim, and it lies still."
+    }
+  },
+  "e11": {
+    "creature": "a spider-shaped machine: a large round abdomen that is a spool wound with bright amber thread between two dark octagonal end plates, a small faceted head with a cluster of small amber lenses, and eight thin angular dark legs with dull orange plates and sharp tips.",
+    "motions": {
+      "idle": "It stands low on all eight legs, its body rising and sinking very slightly, and stays on the same spot.",
+      "move": "It scuttles on the spot with its eight legs stepping in turn, without moving through the frame.",
+      "attack": "It rears up on its back legs and raises its two front legs high, drawing one taut glowing amber thread out of its spool and holding it, then whips the thread forward in the direction it faces so that it vanishes, lowers its front legs and settles back onto all eight legs.",
+      "hit": "It is knocked back and crouches low from a blow, then rises back into its standing pose.",
+      "death": "It is knocked back, its legs curl in under its body as it drops onto the ground, and it lies still."
+    }
+  },
+  "e02": {
+    "creature": "a heavy humanoid gatekeeper machine: a square boxy head with one narrow visor slit and no face, slate-blue riveted plate armour with small rust stains, thick legs, a short piston fist on one arm, and a huge rectangular tower shield engraved with a grid of small squares held straight out in front of it.",
+    "motions": {
+      "idle": "It stands square behind its shield, breathing very slightly, and stays on the same spot.",
+      "move": "It tramps on the spot with heavy steps behind its shield, without moving through the frame.",
+      "attack": "It rocks far back onto its rear leg behind its shield while the whole grid of the shield lights up cyan-white and holds, then it rams forward in the direction it faces, the shield leading, stops, lets the shield hang low and open for a while with the grid gone dark, and then straightens up where it stopped.",
+      "hit": "It rocks back a little behind its shield from a blow and settles again.",
+      "death": "It rocks back, topples over backward onto the ground with its shield falling flat beside it, and lies still.",
+      "shieldbreak": "Its shield is knocked out to one side and hangs low with its grid dark and cracked, the machine reels and sags with its legs bent, then it slowly hauls the shield back in front of itself and straightens up."
+    }
+  },
+  "e04": {
+    "creature": "a small robed mechanical cleric: a long hooded robe of hard pleated brass and dark navy metal panels with no feet showing, an empty dark hood with two small cold cyan points of light, a thin metal claw for one hand, and a tall staff topped by three cyan waveform rings.",
+    "motions": {
+      "idle": "It stands still with its staff planted upright beside it, swaying very slightly, and stays on the same spot.",
+      "move": "It glides on the spot, its robe swaying from side to side, without moving through the frame.",
+      "attack": "It lifts the staff high overhead in both hands, laid along the direction it faces with the rings out in front, and holds it there while the rings spread apart and glow cold cyan, then it drives the staff down hard, and lowers it back to rest upright beside itself.",
+      "hit": "It is pushed back a little and sways, and settles again.",
+      "death": "It sways back, its robe sinks and collapses onto the ground, its staff falls over beside it, and it lies still."
+    }
+  },
+  "b01": {
+    "creature": "a huge mechanical crab, wide and low: a broad flat slate-blue armoured shell with rust stains, three squat round tanks of pale cyan glass in a row on its back, a large round brass lock plate with one keyhole on the front of its shell, two huge pincers with the one on its right bigger, six thick jointed pointed legs, and two short stalks with small lenses instead of a face.",
+    "motions": {
+      "idle": "It stands low with its pincers held forward, its shell rising and sinking very slightly, and stays on the same spot.",
+      "move": "It scuttles on the spot, its six legs stepping in turn and its shell rocking a little, without moving through the frame.",
+      "rush": "It crouches with its pincers pointed ahead, then charges straight forward in the direction it faces, carried across the frame, and skids to a stop where it ends up.",
+      "slam": "It rears up high on its back legs with both pincers lifted wide and held there, then brings both pincers crashing down onto the ground in front of it, and settles back.",
+      "sweep": "It winds both pincers far to one side, then scythes them across its front in one wide swing to the other side, and settles back.",
+      "adds_cast": "It lifts itself with both pincers raised and open while its three tanks swell and glow pale cyan, holds there, then lowers itself again.",
+      "stagger": "It sags low with its legs bent and its pincers hanging open, exhausted, the lock plate on its front pushed forward and glowing amber, holds there, then gathers itself and rises.",
+      "phase_change": "It rears up shaking violently with both pincers raised, its three tanks glowing bright cyan-white and glowing cracks spreading across its shell, then comes down again, still cracked and glowing.",
+      "death": "Its legs splay out and buckle, its shell drops to the ground and tilts, its pincers fall open, its lenses and tanks go dark, and it lies still.",
+      "enter": "It starts crouched flat with its legs tucked in, rises up onto its six legs, lifts both pincers open in a threat, holds them there, and lowers them into its idle stance."
+    }
+  },
+  "e02e": {
+    "creature": "a heavy humanoid gatekeeper machine: a square boxy head with one narrow visor slit and no face, slate-blue riveted plate armour with small rust stains, thick legs, a short piston fist on one arm, and a huge rectangular tower shield engraved with a grid of small squares held straight out in front of it. It has a small pale cream diamond-shaped crest on top of its head, pale cream geometric inlay lines along its plates, and heavy flat iron-soled boots.",
+    "motions": {
+      "idle": "It stands square behind its shield, breathing very slightly, and stays on the same spot.",
+      "move": "It tramps on the spot with heavy steps behind its shield, without moving through the frame.",
+      "attack": "It rocks far back onto its rear leg behind its shield while the whole grid of the shield lights up cyan-white and holds, then it rams forward in the direction it faces, the shield leading, stops, lets the shield hang low and open for a while with the grid gone dark, and then straightens up where it stopped.",
+      "hit": "It rocks back a little behind its shield from a blow and settles again.",
+      "death": "It rocks back, topples over backward onto the ground with its shield falling flat beside it, and lies still.",
+      "shieldbreak": "Its shield is knocked out to one side and hangs low with its grid dark and cracked, the machine reels and sags with its legs bent, then it slowly hauls the shield back in front of itself and straightens up.",
+      "stomp": "It lifts one heavy iron boot high and holds it, then stamps it down hard on the ground, its whole body dropping with the blow, and straightens up again on the same spot."
+    }
+  },
+  "e05": {
+    "creature": "a floating figure with a flat white triangular mask with two thin slit eyes, its body a narrow robe of overlapping pale violet-grey parchment pages with straight edges, two long sleeve-like bundles of pages for arms ending in stiff sheets, and no legs. Its lowest edge floats above the ground.",
+    "motions": {
+      "idle": "It hovers in place, rising and sinking a little, and stays on the same spot.",
+      "move": "It glides on the spot, swaying, leaning into its direction, without moving through the frame.",
+      "attack": "It twists and sweeps one arm far back, its pages fanning out wide into a big blade shape with glowing moon-white edges, holds it, then slashes that arm across its front, and folds its pages back.",
+      "split": "All its pages fan out and flutter as if it is about to come apart, it rises a little, holds, and the pages settle back into place.",
+      "hit": "It is pushed back and its pages flare out for a moment, then settle again.",
+      "death": "It is pushed back, its pages come loose and scatter as it sinks to the ground, the mask dropping last, and lies still."
+    }
+  },
+  "e06": {
+    "creature": "a tall lean humanoid machine, thin as a coat stand, in violet-grey metal with aged ivory plates, a narrow head that is mostly one round moon-white lamp lens, a folding bookshelf frame on its back holding a few closed blank books, and a very long tarnished silver crossbow, longer than its body, loaded with a long flat bolt shaped like a bookmark.",
+    "motions": {
+      "idle": "It stands upright with the crossbow held diagonally across its body and pointing at the ground, and stays on the same spot.",
+      "move": "It walks on the spot with long thin legs, without moving through the frame.",
+      "attack": "It drops onto one knee and raises the crossbow perfectly level, aimed in the direction it faces, while the bookshelf on its back unfolds wide like a fan. It holds perfectly still, the lamp and the bolt glowing moon-white, then the crossbow kicks back once as it fires, it holds a moment longer, folds the shelf and stands up.",
+      "hit": "It rocks back from a blow and settles again.",
+      "death": "It rocks back, sinks to one knee and topples over with the crossbow and bookshelf falling beside it, and lies still."
+    }
+  },
+  "e08": {
+    "creature": "a very thin long-limbed humanoid machine, always stooped, with dark plum limbs, a faceless ivory hood with one small pale lamp, a cape of stiff hard-edged ivory strips like torn catalogue sheets, and a long flat bookmark-shaped silver short blade in each hand.",
+    "motions": {
+      "idle": "It stoops forward on bent legs with both blades held low and wide apart, and stays on the same spot.",
+      "move": "It prowls on the spot on long bent legs, without moving through the frame.",
+      "attack": "It crouches very low with both blades crossed in front of it and its cape strips flared up behind it, holds there, then springs a short way forward and slashes both blades outward, and rises back to its stoop.",
+      "leap": "It crouches, leaps high in the air in the direction it faces with its cape flaring, lands in a deep crouch further on, holds there, and rises to its stoop where it landed.",
+      "hit": "It is knocked back and crouches for a moment, then rises again.",
+      "death": "It is knocked back, sinks low and collapses onto the ground with its cape falling over it, and lies still."
+    }
+  },
+  "e09": {
+    "creature": "a heavy armoured machine knight in steel grey with thin amber weld seams, very high square shoulders, a helmet with one narrow slit, a thick flat chest plate, armour of identical repeated ribs, cooling pipes running down its back, and a long thin lance with an amber tip.",
+    "motions": {
+      "idle": "It stands rigidly upright like a statue with its lance vertical beside it, and stays on the same spot.",
+      "move": "It marches on the spot with heavy even steps, without moving through the frame.",
+      "attack": "It lowers the lance level and thrusts forward twice in quick succession, stepping forward with each thrust. Then it draws the lance far back and holds perfectly still for a long moment with the tip glinting, then makes one last big thrust further forward, holds the lunge, and straightens up where it stopped with the lance back beside it.",
+      "hit": "It rocks back very slightly from a blow and settles again.",
+      "death": "It rocks back, then topples over backward like a falling statue with its lance dropping beside it, and lies still."
+    }
+  },
+  "e12": {
+    "creature": "a tall thin figure, pure black and white, with a flat featureless mask split vertically into a white half and a black half, a long narrow coat of rigid geometric panels, a few hairline cold-blue cracks, and a huge scythe whose blade is one clean white crescent.",
+    "motions": {
+      "idle": "It stands straight with the scythe upright beside it, swaying very slightly, and stays on the same spot.",
+      "move": "It glides on the spot with its coat swaying, without moving through the frame.",
+      "attack": "Its torso twists far around and the scythe swings back low behind it, the blade glowing white, and it holds there. Then it cuts in one huge fast sweep across its front in a wide arc, holds the end of the swing, and brings the scythe back upright beside it.",
+      "hit": "It rocks back from a blow and settles again.",
+      "death": "It rocks back and its tall body folds and collapses onto the ground with the scythe falling beside it, and lies still."
+    }
+  },
+  "e06e": {
+    "creature": "a tall lean humanoid machine, thin as a coat stand, in violet-grey metal with aged ivory plates, a narrow head that is mostly one round moon-white lamp lens, a folding bookshelf frame on its back holding a few closed blank books, and a very long tarnished silver crossbow, longer than its body, loaded with a long flat bolt shaped like a bookmark. It has a small pale cream diamond crest on its head, pale cream inlay lines and a large closed metal loop around the front of its crossbow.",
+    "sheets": { "idle": "sheet_standing.png", "move": "sheet_standing.png", "hit": "sheet_standing.png" },
+    "motions": {
+      "idle": "It stands upright with the crossbow held diagonally across its body and pointing at the ground, and stays on the same spot. The bookshelf on its back stays folded shut into one narrow box.",
+      "move": "It walks on the spot with long thin legs, without moving through the frame. The bookshelf on its back stays folded shut into one narrow box.",
+      "attack": "It drops onto one knee and raises the crossbow perfectly level, aimed in the direction it faces, while the bookshelf on its back unfolds wide like a fan. It holds perfectly still, the lamp and the bolt glowing moon-white, then the crossbow kicks back once as it fires, it holds a moment longer, folds the shelf and stands up.",
+      "hit": "It rocks back from a blow and settles again. The bookshelf on its back stays folded shut into one narrow box.",
+      "death": "It rocks back, sinks to one knee and topples over with the crossbow and bookshelf falling beside it, and lies still."
+    }
+  },
+  "e09e": {
+    "creature": "a heavy armoured machine knight in steel grey with thin amber weld seams, very high square shoulders, a helmet with one narrow slit, a thick flat chest plate, armour of identical repeated ribs, cooling pipes running down its back, and a long thin lance with an amber tip. It has a small pale cream diamond crest on its helmet, pale cream inlay lines, rows of straight scratch marks on its shoulders and helmet, and one small round glowing lens in its helmet slit.",
+    "motions": {
+      "idle": "It stands rigidly upright like a statue with its lance vertical beside it, and stays on the same spot.",
+      "move": "It marches on the spot with heavy even steps, without moving through the frame.",
+      "attack": "It lowers the lance level and thrusts forward twice in quick succession, stepping forward with each thrust. Then it draws the lance far back and holds perfectly still for a long moment with the tip glinting, then makes one last big thrust further forward, holds the lunge, and straightens up where it stopped with the lance back beside it.",
+      "hit": "It rocks back very slightly from a blow and settles again.",
+      "death": "It rocks back, then topples over backward like a falling statue with its lance dropping beside it, and lies still."
+    }
+  },
+  "e12e": {
+    "creature": "a tall thin figure, pure black and white, with a flat featureless mask split vertically into a white half and a black half, a long narrow coat of rigid geometric panels, a few hairline cold-blue cracks, and a huge scythe whose blade is one clean white crescent. It has a small pale cream diamond crest, thick black and white geometric armour plates all around its body, and a second thinner crescent along the scythe blade.",
+    "motions": {
+      "idle": "It stands straight with the scythe upright beside it, swaying very slightly, and stays on the same spot.",
+      "move": "It glides on the spot with its coat swaying, without moving through the frame.",
+      "attack": "Its torso twists far around and the scythe swings back low behind it, the blade glowing white, and it holds there. Then it cuts in one huge fast sweep across its front in a wide arc, holds the end of the swing, and brings the scythe back upright beside it.",
+      "hit": "It rocks back from a blow and settles again.",
+      "death": "It rocks back and its tall body folds and collapses onto the ground with the scythe falling beside it, and lies still."
+    }
+  },
+  "b02": {
+    "creature": "a floating blank ivory mask with two thin dark eye slits and a small white hexagon stencil on its forehead, set in a high collar of stiff cream paper pages and pale violet mirror plates that stand up behind it like a fan. It has no body and no limbs, and hovers above the ground.",
+    "motions": {
+      "idle": "It hovers on the spot, bobbing very slightly, its pages and mirror plates swaying a little.",
+      "move": "It glides on the spot, leaning a little forward with its pages rippling, without moving through the frame.",
+      "prism_lance": "It spreads its collar and tips its mask back, holding there while its mirror plates brighten, then snaps the mask forward, holds, and folds the collar shut.",
+      "mirror_split": "Its collar opens out into a wide fan and its mirror plates shine, holds there, then folds shut again.",
+      "mirror_sweep": "It spreads its collar wide, swings the whole fan to one side, holds, sweeps it across to the other side, holds, then folds it shut.",
+      "decoy_break": "A blow rocks it backward with its collar shaking and half open, then it settles forward and closes the collar.",
+      "stagger": "It sinks low and tips its mask forward with its collar drooping half open, spent, holds there, then rises and closes up.",
+      "phase_change": "It rises shaking and opens its collar fully while thin moon-white cracks spread across its mask, then two tall mirror plates slide out at its sides and stay there, and the cracks stay too.",
+      "death": "Its collar flies open, its pages and mirror plates fall away, and the mask tips over, drops to the ground and lies still.",
+      "enter": "It starts as loose pages scattered low on the ground, which rise and gather into a fan behind the mask as it floats up, and the fan folds closed into its idle stance."
+    }
+  },
+  "b03": {
+    "template": "statue",
+    "eight": true,
+    "sheets": { "idle": "sheet_running.png" },
+    "creature": "a huge dark iron statue fixed to a stepped stone pedestal: broad armoured shoulders with gold trim, a narrow head with a slim red visor and a small gold crest, its chest torn open into a cockpit with jagged peeled-back plates, and inside it, waist-deep in the machine, a young woman with very long wavy orange hair in a cream frilled blouse, a black corset and a long layered skirt, gripping two control handles with thick black cables running from her forearms along its arms, a ribbed skirt that merges into the pedestal, a long straight blade for a hand on the left of the picture and a square stamping hammer for a hand on the right of the picture. It never leaves its pedestal.",
+    "motions": {
+      "idle": "It stands still with its shoulders rising and sinking very slightly. The woman inside stays exactly as she is, her eyes closed and her hands on the control handles, and the plates of its chest do not move.",
+      "sweep": "It draws its blade arm back and up, holds, then cuts down and across its front in one wide stroke, and returns.",
+      "stamp": "It lifts its hammer arm straight up high, holds, then brings the hammer down onto the ground in front of it, holds it there, and lifts it back.",
+      "ritual": "It raises both arms high with blade and hammer held up, holds them there while its gold trim brightens, then lowers them.",
+      "arm_break": "A heavy blow knocks its hammer arm down so it hangs limply at its side and its shoulders tip, it holds there, then drags the arm back up.",
+      "stagger": "It sags down on its pedestal and tips forward, spent, holds there, then straightens up.",
+      "phase_change": "It raises both arms and shakes while amber cracks spread through its shoulders, and three heavy gold chains with weights drop from the torn edge of its chest and stay hanging, then it lowers its arms, keeping the chains and the cracks.",
+      "death": "Its arms drop, it tips forward and sinks until it slumps over its pedestal, its visor and gold trim go dark, and it stays still.",
+      "enter": "It rises slowly up from inside its pedestal with its arms hanging, raises both arms once, holds them, and lowers them into its idle stance."
+    }
+  },
+  "b04": {
+    "creature": "a floating polished core, exactly half matt black and half white with a jagged seam between the halves and a small white hexagon stencil on its black half, held inside three separate thick frames of black and white slabs: a square, a hexagon and a triangle, tilted and interlocked around it. It has no body and no limbs, it floats above the ground, and the frames never touch the core.",
+    "motions": {
+      "idle": "It hovers on the spot while its three frames turn slowly around the core, each at its own speed, and the core stays still.",
+      "ring_fire": "Its frames open wider while the core brightens, hold there, then snap back with a jolt and keep turning.",
+      "sector_pulse": "Its frames turn slowly, hold, then whip around fast, and slow down again.",
+      "core_beam": "Its three frames swing flat into one plane behind the core and the core's two halves part a little, holding there a long time, then the core closes and the frames tilt back.",
+      "collapse": "Its frames spin inward and crush tight around the core, hold for a moment, then burst out wide and ease back.",
+      "expose": "Its frames open out wide and the core swells with its halves slightly apart, exposed, holds there, then it closes up again.",
+      "stagger": "It drops a little with its frames slipping out of true and turning loosely, holds there, then lifts and straightens.",
+      "phase_change": "Its frames spin fast and open wide while thin cold blue cracks spread across the core, then they close back in and the cracks stay.",
+      "death": "The core's two halves drift apart, its frames open wide, then all of it falls to the ground in pieces and stays still.",
+      "enter": "It starts with its frames crushed tight around the core and spinning; they open out and slow down until it reaches its idle stance."
+    }
+  },
+  "decoy": {
+    "template": "figure",
+    "eight": true,
+    "creature": "a soft plush doll with a short dark brown bob haircut, round black eyes, a small smile, a lilac frilled dress with a big bow, and stubby round limbs.",
+    "motions": {
+      "appear": "It pops up very small on the same spot and quickly grows to full size with a little overshoot, then settles.",
+      "idle": "It bounces up and down on the spot in small cheerful hops, squashing a little each time it lands.",
+      "hit": "A blow squashes it flat with its arms out, then it springs back up to its normal shape on the same spot.",
+      "disappear": "It floats up a little, shrinking until it is gone, leaving the green background empty."
+    }
+  }
+}
