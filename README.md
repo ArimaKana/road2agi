@@ -31,7 +31,14 @@ npm test
 - 横版素材：[无字底图](art/Road_to_AGI_横版海报_无字.png)、[游戏 Logo 透明图](art/ui/game-logo.png)、[生图提示词与制作记录](art/Road_to_AGI_横版海报_prompt.txt)；运行 `node tools/poster_exports.mjs` 可重新合成两个比例。
 - [游戏图标](art/ui/game-icon-500.png)：500×500 PNG，基于 DeepSeek 人物头像制作；[生成提示词](art/ui/game-icon-500.prompt.txt)。
 - [游戏介绍视频](art/Road_to_AGI_游戏介绍.mp4)：60 秒的 1080p 实机介绍；战斗开场，九位伙伴技能完整展示，对话后移，横版海报收尾。金色粗衬线字幕配柔和晕影，配乐为根目录的 `当然可以好问题.m4a`；[剪辑时间线与重建说明](docs/宣传片制作.md)。
+- [LICENSE](LICENSE)、[第三方资源与许可](THIRD_PARTY_NOTICES.md)：代码采用 Apache License 2.0；美术、字体、音频和第三方模型的授权另行说明。
 
 ![Road to AGI 横版海报](art/Road_to_AGI_横版海报.png)
 
 Three.js 为 MIT 许可，由 npm 安装。角色参考来源及说明见游戏设定文档。
+
+## 版权与许可
+
+本仓库的源代码、脚本、配置、测试和文档采用 [Apache License 2.0](LICENSE)，版权归 Road to AGI 作者所有。
+
+游戏里的美术、字体、音频、视频和第三方模型不纳入 Apache-2.0 许可：角色形象参考 [ai-chan-sheets](https://github.com/lmy414/ai-chan-sheets)（CC BY-NC-SA 4.0，原始形象归 ZipZipPipe），界面字体为 SIL OFL 1.1，构建产物还包含 MIT 许可的 Three.js 与 Vue。各资源的来源、许可和使用条件见[第三方资源与许可](THIRD_PARTY_NOTICES.md)。分发、再发布或商用前请先确认对应授权；角色设定和美术不能仅凭 Apache-2.0 用于商业用途。
