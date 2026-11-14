@@ -1,5 +1,6 @@
 """Render the 60-second gameplay trailer. Run from any directory; see docs/宣传片制作.md."""
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import re
@@ -38,40 +39,41 @@ def ffmpeg(*args):
 # Every partner gets a separate shot, including the three support skills.
 # Cuts include each portrait entrance and the corresponding gameplay effect.
 SKILLS = [
-    ('kimi', 'Kimi · 月棱折光', 23, 29, 'cards-a', 1.10),
-    ('minimax', 'MiniMax · 万象片场', 29, 33, 'cards-a', 4.80),
-    ('gemini', 'Gemini · 双星闪袭', 33, 38, 'cards-b', 1.70),
-    ('grok', 'Grok · 绯月惑心', 38, 43, 'cards-b', 3.84),
-    ('glm', 'GLM · 狐影渗透', 43, 49, 'cards-b', 5.85),
+    ('kimi', 'Kimi · 月棱折光', 23, 29, 'skill-kimi', .40),
+    ('minimax', 'MiniMax · 万象片场', 29, 33, 'skill-minimax', .40),
+    ('gemini', 'Gemini · 双星闪袭', 33, 38, 'skill-gemini', .40),
+    ('grok', 'Grok · 绯月惑心', 38, 43, 'skill-grok', .40),
+    ('glm', 'GLM · 狐影渗透', 43, 49, 'skill-glm', .40),
     ('qwen', 'Qwen · 千问无界', 49, 57, 'skill-qwen', .40),
     ('seed', 'Seed · 豆包应援', 57, 65, 'skill-seed', .40),
     ('gpt', 'GPT · 重置会话', 65, 71, 'skill-gpt', .40),
-    ('claude', 'Claude · 封禁裁决', 71, 77, 'cards-a', 6.40),
+    ('claude', 'Claude · 封禁裁决', 71, 77, 'skill-claude', .40),
 ]
 
 
-def timeline():
+def timeline(clips=None):
     shots = []
 
     def add(name, start, end, source, source_in, **extra):
         shots.append(dict(name=name, start=frame(start), end=frame(end), source=source,
                           source_in=frame(source_in), **extra))
 
-    add('opening-strike', 0, beat(5), 'combat-a', 1.30)
-    add('opening-dash', beat(5), beat(9), 'combat-b', 6.75)
-    add('opening-charge', beat(9), beat(17), 'combat-a', 6.62)
-    add('partners', beat(17), beat(23), 'partners', 1.00)
+    add('opening-strike', 0, beat(5), 'opening-strike', .40)
+    add('opening-dash', beat(5), beat(9), 'opening-dash', .40)
+    add('opening-charge', beat(9), beat(17), 'opening-charge', .40)
+    add('partners', beat(17), beat(23), 'partners', .40)
     for card, caption, start, end, source, source_in in SKILLS:
         add('skill-' + card, beat(start), beat(end), source, source_in, card=card)
-    # Preserve the two original opening dialogue shots, now after combat and skills.
-    add('story-system', beat(77), beat(85), 'story', 29 / FPS, source_out=119, stretch=True)
-    add('story-deepseek', beat(85), beat(93), 'story', 230 / FPS)
-    for index, (source, source_in) in enumerate([('combat-b', .9), ('lib', .6), ('forge', 1), ('zero', 1.9)]):
-        add('region-' + str(index + 1), beat(93 + 4 * index), beat(97 + 4 * index), source, source_in)
-    add('trial', beat(109), beat(117), 'trial-fight', 7)
-    for index, source_in in enumerate([2, 4.4, 9.6, 6.9]):
-        add('boss-' + str(index + 1), beat(117 + 4 * index), beat(121 + 4 * index), 'boss' + str(index + 1), source_in)
-    add('ultimate', beat(133), FINAL_HIT, 'ult-c', 7.367 - (beat(137) - beat(133)))
+    add('story-system', beat(77), beat(85), 'story-system', .40)
+    add('story-deepseek', beat(85), beat(93), 'story-deepseek', .40)
+    for index in range(4):
+        source = 'region-' + str(index + 1)
+        add(source, beat(93 + 4 * index), beat(97 + 4 * index), source, .40)
+    add('trial', beat(109), beat(117), 'trial', .40)
+    for index in range(4):
+        source = 'boss-' + str(index + 1)
+        add(source, beat(117 + 4 * index), beat(121 + 4 * index), source, .40)
+    add('ultimate', beat(133), FINAL_HIT, 'ultimate', .40)
     add('poster', FINAL_HIT, END, 'Road_to_AGI_横版海报.png', 0, poster=True)
     assert shots[0]['start'] == 0 and shots[-1]['end'] == END * FPS
     assert all(a['end'] == b['start'] for a, b in zip(shots, shots[1:]))
@@ -79,6 +81,32 @@ def timeline():
     card_ids = set(re.findall(r"^  (\w+): \{ id:", card_source, re.M))
     assert {s['card'] for s in shots if 'card' in s} == card_ids
     assert len(SKILLS) == len(card_ids)
+    if clips is not None:
+        revision = run(['git', '-C', ROOT, 'log', '-1', '--format=%H', '--', 'game']).decode().strip()
+        hero_hash = hashlib.sha256((ROOT / 'game/public/assets/hero.json').read_bytes()).hexdigest()
+        required = {
+            'opening-strike': 'attack', 'opening-dash': 'dash', 'opening-charge': 'chargeFull',
+            'skill-kimi': 'kimiBolt', 'skill-minimax': 'trainStart', 'skill-gemini': 'geminiDash',
+            'skill-grok': 'grokWave', 'skill-glm': 'glmThread', 'skill-qwen': 'qwenOff',
+            'skill-seed': 'seedHeal', 'skill-gpt': 'gptReset', 'skill-claude': 'claudeStrike',
+            'ultimate': 'ultPunch',
+        }
+        for shot in shots:
+            if shot.get('poster'):
+                continue
+            report = json.loads((clips / (shot['source'] + '.json')).read_text(encoding='utf-8'))
+            assert report['gameRevision'] == revision, f"Stale game footage: {shot['name']}"
+            assert report['heroSha256'] == hero_hash, f"Stale hero artwork: {shot['name']}"
+            shot['source_in'] = frame(report['marks']['in'])
+            assert report['frames'] >= shot['source_in'] + shot['end'] - shot['start'], f"Short footage: {shot['name']}"
+            if shot['name'] in required:
+                start = shot['source_in'] / FPS
+                end = start + (shot['end'] - shot['start']) / FPS
+                assert any(e['type'] == required[shot['name']] and start <= e['time'] < end
+                           for e in report['marks']['events']), f"Edit misses the action: {shot['name']}"
+            shot['recordedAt'] = report['recordedAt']
+            shot['gameRevision'] = report['gameRevision']
+            shot['heroSha256'] = report['heroSha256']
     return shots
 
 
@@ -214,7 +242,7 @@ def build_shots(work, clips):
     colors = ['-color_range', 'tv', '-colorspace', 'bt709', '-color_primaries', 'bt709', '-color_trc', 'bt709']
     scale = 'scale=1920:1080:flags=lanczos:out_range=tv:out_color_matrix=bt709,format=yuv420p,setsar=1'
     encode = ['-c:v', 'libx264', '-preset', 'fast', '-crf', 13, '-threads', 6, '-pix_fmt', 'yuv420p', *colors, '-r', FPS, '-an']
-    shots = timeline()
+    shots = timeline(clips)
     for index, shot in enumerate(shots):
         count = shot['end'] - shot['start']
         output = work / f'shot-{index:02d}.mp4'
@@ -246,7 +274,7 @@ def build_shots(work, clips):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--clips', type=Path, default=ROOT / 'art-source/promo/clips')
+    parser.add_argument('--clips', type=Path, default=ROOT / 'art-source/promo/current/clips')
     parser.add_argument('--work', type=Path, default=ROOT / 'qa/video-revision/build')
     parser.add_argument('--out', type=Path, default=ROOT / 'art/Road_to_AGI_游戏介绍.mp4')
     parser.add_argument('--font', type=Path, default=ROOT / 'qa/font-source/NotoSerifSC.ttf')
@@ -263,6 +291,8 @@ def main():
     if 'shots' in steps:
         build_shots(args.work, args.clips)
     if 'final' in steps:
+        saved_timeline = json.loads((args.work / 'timeline.json').read_text(encoding='utf-8'))
+        assert saved_timeline == timeline(args.clips), 'Footage or edit points changed; rebuild with --steps shots,final'
         args.out.parent.mkdir(parents=True, exist_ok=True)
         escape = lambda path: path.as_posix().replace(':', r'\:').replace("'", r"\'")
         vf = f"subtitles='{escape(ass)}':fontsdir='{escape(fonts)}'"
